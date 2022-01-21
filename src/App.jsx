@@ -5,6 +5,7 @@ import NavBar from './components/NavBar';
 import Home from './components/Home';
 import Projects from './components/Projects';
 import Tools from './components/Tools';
+import ContactMe from './components/ContactMe';
 
 const App = () =>  {
   // Create the count state.
@@ -21,8 +22,8 @@ const App = () =>  {
       <Routes>
         <Route element={<Home/>} path='/' exact />
         <Route element={<Tools/>} path='/tools' />
-        {/* <Route element={<SinglePost/>} path='/post/:slug' />
-        <Route element={<Post/>} path='/post' /> */}
+        {/* <Route element={<SinglePost/>} path='/post/:slug' /> */}
+        <Route element={<ContactMe/>} path='/contact' />
         <Route element={<Projects/>} path='/projects' />
       </Routes>
     </BrowserRouter>

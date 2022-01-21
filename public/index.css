@@ -29,3 +29,10 @@ body {
   background-color: #013A6B;
   background-image: -webkit-linear-gradient(30deg, #fea6f2f7 50%, #f8bfec 50%);
 }
+
+.toolIcon {
+  font-size: 50px;
+  padding: 10px;
+  border: 2px solid black;
+  margin: 10px;
+}

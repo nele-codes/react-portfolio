@@ -7,13 +7,13 @@ const Tools = () => {
   return (
     <div className="flex space-x-4 justify-center">
       <div>
-        <SiJavascript />
+        <SiJavascript className="toolIcon" />
       </div>
       <div>
-        <SiReact />
+        <SiReact className="toolIcon" />
       </div>
       <div>
-        <RiVuejsFill />
+        <RiVuejsFill className="toolIcon" />
       </div>      
     </div>
   )
