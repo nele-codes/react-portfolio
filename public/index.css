@@ -6,7 +6,26 @@
 
 /* Add CSS styles here! */
 body {
-  background: rgb(199, 197, 197);
+  background: #c7c5c5;
   font-family: sans-serif;
   font-family: "Permanent Marker"
+}
+
+.navLink {
+  color:#e9e5da;
+  font-size: 30px;
+  padding: 0 10px;
+  border: 2px solid transparent;
+}
+.navLink:hover {
+  border: 2px solid #e9e5da;
+}
+
+.defaultFontColor {
+  color: #e9e5da;
+}
+
+.homeSectionBackground {
+  background-color: #013A6B;
+  background-image: -webkit-linear-gradient(30deg, #fea6f2f7 50%, #f8bfec 50%);
 }

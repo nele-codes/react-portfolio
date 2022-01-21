@@ -11,10 +11,10 @@ const NavBar = () => {
                 </NavLink>
             </div>
             <div className="flex m-auto space-x-12">
-                <NavLink to="/" className="text-2xl" style={{color: "#e9e5da"}}>ABOUT ME</NavLink>
-                <NavLink to="/" className="text-2xl" style={{color: "#e9e5da"}}>PROJECTS</NavLink>
-                <NavLink to="/" className="text-2xl" style={{color: "#e9e5da"}}>BLOGS</NavLink>
-                <NavLink to="/" className="text-2xl" style={{color: "#e9e5da"}}>CONTACT ME</NavLink>
+                <NavLink to="/" className="navLink">ABOUT ME</NavLink>
+                <NavLink to="/projects" className="navLink">PROJECTS</NavLink>
+                <NavLink to="/tools" className="navLink">TOOLS</NavLink>
+                <NavLink to="/" className="navLink">CONTACT ME</NavLink>
             </div>
         </nav>
     )
